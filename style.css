@@ -1,0 +1,55 @@
+body {
+    margin: 0% auto;
+    padding: 0%;
+    text-align: center;
+    width: 75%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+#logo {
+    float: left;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#Name {
+    text-align: right;
+}
+
+#hero {
+    width: 60%;
+    height: 30%;
+}
+.Featured {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project {
+    flex-basis: 33.3%;
+}
+#Featured {
+    text-align: left;
+}
+.project-pic {
+    width: 100%;
+    height: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .project {
+    flex-basis: 100%;
+    }
+    body {
+        font-size: .7em;
+    }
+    #logo {
+        width: 35px;
+        height: 35px;
+    }
+}
